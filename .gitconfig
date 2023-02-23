@@ -1,0 +1,24 @@
+# ln -s <this_file> ~/.gitconfig
+# or in ~/.gitconfig
+# [include]
+#     path = <this_file>
+
+[user]
+	email = 13315189+4wuyan@users.noreply.github.com
+	name = WU Yan
+
+[core]
+	editor = vim
+	autocrlf = false
+	eol = lf
+
+[pull]
+	ff = only
+
+[rebase]
+	autoStash = true
+
+[merge]
+	autoStash = true
+[push]
+	autoSetupRemote = true
