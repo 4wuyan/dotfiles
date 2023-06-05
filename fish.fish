@@ -14,6 +14,9 @@ abbr --add --global l 'ls -CF'
 abbr --add --global mv "mv --interactive"  # confirm if overwriting
 abbr --add --global v 'vim'
 abbr --add --global vi 'vim'
+function ntfy
+	curl -X POST -d hey ntfy.sh/yanspublic
+end
 
 #------------------
 # Homebrew on Linux
