@@ -42,7 +42,7 @@ function _is_wsl2
 	string match --quiet '*-WSL2' < /proc/sys/kernel/osrelease
 end
 function _is_dell
-	string match --quiet '*YWU*' < /proc/sys/kernel/hostname
+	string match --quiet '*F1G*' < /proc/sys/kernel/hostname
 end
 
 if _is_dell
