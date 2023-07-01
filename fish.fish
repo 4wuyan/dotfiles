@@ -10,6 +10,7 @@ abbr --add --global cp "cp --interactive"  # confirm if overwriting
 abbr --add --global g 'git'
 abbr --add --global gs 'git status'
 abbr --add --global c 'code .'
+abbr --add --global s 'smerge .'
 abbr --add --global l 'ls -CF'
 abbr --add --global mv "mv --interactive"  # confirm if overwriting
 abbr --add --global v 'vim'
