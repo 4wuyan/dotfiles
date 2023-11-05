@@ -1,8 +1,10 @@
 Config for Rime input method.
 
-```bash
+```sh
 for i in *.yaml; do
-  ln -s "$PWD/$i" ~/.config/ibus/rime/"$i"
+  for p in ~/.config/ibus/rime ~/.local/share/fcitx5/rime; do
+    [ -d "$p" ] && ln -s "$PWD/$i" "$p/$i"
+  done
 done
 ```
 
