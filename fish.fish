@@ -55,6 +55,7 @@ if _is_dell
 	end
 	function auth
 		if [ -f /tmp/creds.txt ]; rm /tmp/creds.txt; end
+		set --erase AWS_REGION
 		authenticate --format sh $argv
 		_source_creds
 	end
