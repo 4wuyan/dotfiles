@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-# ln -s <this_file> ~/.config/fish/config.fish
+# ln -s <this_file> ~/.config/fish/conf.d/from_git_dotfiles.fish
 # or in ~/.config/fish/config.fish
 # source <this_file>
 
